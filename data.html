@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Мета для языка сайта, в данном случае - кодировка. Utf-8 - универсальная -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Это разные теги для поисковиков -->
+    <meta name="author" content="Главный отдел fallbien Entertainment™">
+    <meta name="description" content="Сайт творческого отдела fallbien Entertainment™">
+    <meta name="keywords" content="fallbien, html, монтаж, адоб, премьер про, фотошоп">
+    <!-- тайтл - то, что показывается вверху; наименование страницы -->
+    <title> fallbien Entertainment™ - Отправить данные! </title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+    <body>
+      <div class="container">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <h1 align="center">Оставить контактные данные для работы в fallien Entertainment™</h1>
+        <!-- Отправить форму -->
+         <div id="form">
+          <form action="https://www.google.com/?hl=ru" method="get" target="_blank">
+            <label for="firstname">Имя:</label>
+            <input type="text" value="Джон" name="first_name" id="firstname"><br><br>
+            
+            <label for="lastname">Фамилия:</label>
+            <input type="text" placeholder="Синема" name="last_name" id="lastname"><br><br>
+            
+            <label for="age">Возраст:</label>
+            <input type="number" id="age" value="19"><br><br>
+
+            <label for="group">Номер группы:</label>
+            <input id="group" type="number" name="groupnumber" value="3"><br><br>
+
+            <label for="phone">Номер телефона:</label>
+            <input id="phone" type="text" name="phone" placeholder="+71234567890"><br><br>
+
+            <label for="email">Электронный адрес:</label>
+            <input id="email" type="email" name="email" placeholder="vladik@gmail.com"><br><br>
+
+            <label for="password">Номер талончика:</label>
+            <input id="password" type="password" name="password" value="kuplinov" maxlength="8"><br><br>
+
+            <label for="messagedate">Дата отправки заявки:</label>
+            <input id="messagedate" type="date" name="messagedate"><br><br>
+
+            <label>Кем вы хотите стать в команде fallbien Entertainment™?</label><br>
+            <input type="checkbox" id="editing" name="editor"><label>Видеомонтажёром</label><br>
+            <input type="checkbox" id="photoshop" name="graphdesign"><label>Графическим дизайнером</label><br><br>
+
+            <label>Опыт работы в соответствующих сферах (суммарно)</label><br>
+            <input type="radio" name="exp" value="До месяца"><label>До месяца</label><br>
+            <input type="radio" name="exp" value="До полугода"><label>До полугода</label><br>
+            <input type="radio" name="exp" value="Год"><label>Год</label><br>
+            <input type="radio" name="exp" value="Больше года"><label>Больше года</label><br><br>
+            
+            <input id="indev" type="text" hidden>
+
+            <input type="submit" name="data_send" value="Отправить заявку!"><br><br>
+            <input type="reset" name="data_reset" value="Сбросить заявку :(">
+
+          </form>
+          </div>
+    
+        
+        <!-- Карта сайта -->
+    <aside>
+      
+      <h3><u>📝 Карта сайта 📝</u></h3>
+      <nav>
+      <details>
+      <summary><b>Внутри сайта</b></summary>
+        <a href="index.html" title="Главная страница">На главную</a><br>
+        <a href="images.html" title="Просмотр картинок и таблицы"> Изображения и таблица</a><br>
+        <a href="passport.html" title="Просмотреть паспортные данные"> Паспорт</a><br>
+        <!-- <a href="task.html" title="Алгоритмическая задача"> Задача</a><br> -->
+        <a href="data.html" class="active" title="Отправить данные">Отправка данных</a><br>
+        <a href="shop.html" title="Купить мерч"> Купить мерч</a><br>
+      </details>
+      
+      <details>
+      <summary><b>На сторонние ресурсы</b></summary>
+        <div class="links">
+          <a href="https://youtube.com" title="Перейти на видеохостинг YouTube" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" width="40" height="40" alt="YouTube"></a><br>
+          <a href="https://t.me/fallbienyt" title="Телеграм канал главного отделения" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" width="40" height="40" alt="Телеграм канал"> </a>
+        </div>
+      </details>
+      </nav>
+    </aside>
+    </div>
+    </body>
+</html>
+<!-- maxlenght - макс длинна для поля; hidden - скрыть поле; disabled - неактивное полеl for= по id; state - взаимоисключение -->
+
+<!-- seleсt - выпадающий список; option - сам список для него; disabled - нельзя выбрать повторно; selected - выбран по умолчанию; multiple - несколько вариантов; size - показанные варианты -->
